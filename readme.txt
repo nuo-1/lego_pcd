@@ -1,0 +1,10 @@
+lego-loam中原本点云数据：
+	finalCloud.pcd:全部点云
+	cornerMap.pcd：角点点云
+	surfaceMap.pcd:平面点点云
+	trajectory.pcd:轨迹
+区域生长后得到的数据：
+	finalCloud_inliers_inliers.pcd：去除的地面点点云
+	finalCloud_outliers_inliers.pcd：去除地面点后的点云
+scan去除地面点后的数据：
+	finalCloud_scan_remove_ground.pcd：去除地面点后的点云
